@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3 style="text-align: center;">Registration Form</h3>
+    <fieldset>
+        <form>
+            <div>
+                <label for="fn">Enter first name</label>
+                <input type="text" name="username" id="un" placeholder="enter first name">
+            </div>
+            <br>
+            <div>
+                <label for="ln">Enter last name</label>
+                <input type="text" name="username" id="un" placeholder="enter last name">
+            </div>
+            <br>
+            <div>
+                <label for="e">Enter your email</label>
+                <input type="email" name="email" id="e" placeholder="enter your email">
+            </div>
+            <br>
+            <div>
+                <label for="epw">Enter password</label>
+                <input type="password" name="password" id="pw" placeholder="enter your password">
+            </div>
+            <br>
+            <div>
+                <label for="cpw">Confirm password</label>
+                <input type="password" name="password" id="pw" placeholder="confirm password">
+            </div>
+            <br>
+            <div>
+                <label for="g">Select gender</label>
+                <input type="radio" name="gender" id="g">male
+                <input type="radio" name="gender" id="g">female
+                <input type="radio" name="gender" id="g">Others
+            </div>
+            <br>
+            <div>
+                <label for="d">Dob</label>
+                <input type="date" name="dob" id="d" placeholder="enter Bday date" max="2012-12-31" min="1990-01-01">
+            </div>
+            <br>
+            <div>
+                <label for="c">Enter your city</label>
+                <select name="city" id="c">
+                    <option value=""></option>
+                    <option value="">hyderabad</option>
+                    <option value="">vijayawada</option>
+                    <option value="">banglore</option>
+                    <option value="">chennai</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="a">Enter Address</label>
+                <textarea name="address" id="a" cols="30" rows="5"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="q">Qualification</label>
+                <input type="checkbox" name="degree" id="q">M.C.A
+                <input type="checkbox" name="degree" id="q">Msc
+                <input type="checkbox" name="degree" id="q">Btech
+                <input type="checkbox" name="degree" id="q">Mtech
+                <input type="checkbox" name="degree" id="q">M.B.A
+                <input type="checkbox" name="degree" id="q">Bsc
+                <input type="checkbox" name="degree" id="q">Bcom
+            </div>
+            <br>
+            <div>
+                <label for="p">Enter your percentage</label>
+                <input type="number" name="persent" id="p" max="100" min="35">
+            </div>
+            <br>
+            <div>
+                <label for="m">Moblile number</label>
+                <input type="number" name="contact" id="m">
+            </div>
+            <br>
+            <div>
+                <label for="r">Upload your resume</label>
+                <input type="file" name="resume" id="r">
+            </div>
+            <br>
+            <div>
+                <input type="radio" name="agree" id="a">
+                <input type="button" value= "I agree">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
